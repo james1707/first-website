@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-2">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">James's Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+     <!-- Hero section-->
+    <div class="bg-danger text-white p-5 text-center">
+        <marquee direction="up"><h1 class="fw-bold display-5 text-center">Welcome To James's Profile</h1></marquee> 
+        <p class="fs-3 fw-lighter">I showcase my skills and projects here.</p>
+    </div>
+     <!--About me--> 
+     <section class="container bg-light">
+        <h1 class="text-center p-3">About James</h1>
+        <div class="row">
+            <img class="col-sm-12 col-md-5 pb-4" src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="random">
+            <p  class="col-sm-12 col-md-6 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus est ut tempora suscipit vero ea non? Illo reiciendis quasi officiis quod modi labore facilis necessitatibus ratione, maiores sunt accusantium ex voluptatum, esse quas qui fuga ea fugiat corporis nihil, natus magnam alias sequi facere laborum. Labore molestias dolor veniam dolorum?</p>
+        </div>
+     </section>
+
+     <!--Card Section-->
+    <section class="bg-light">
+        <div class="container">
+        <h2 class="text-center py-2">Portfolio</h2>
+        <div class="row p-2">
+        <div class="col-sm-12 col-md-4 pb-3">
+            <div class="card">
+                <div class="card-body">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1610041321327-b794c052db27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGdhbWVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="" srcset="">
+                  <h4 class="pt-2">Project 1</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, voluptatum!</p>
+                  <button class="btn fw-bold btn-primary">Learn more</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4 pt-2 pb-3">
+            <div class="card">
+                <div class="card-body">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1610041321327-b794c052db27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGdhbWVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="" srcset="">
+                  <h4 class="pt-2">Project 2</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, voluptatum!</p>
+                  <button class="btn fw-bold btn-primary">Learn more</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4 pt-2 pb-3">
+            <div class="card">
+                <div class="card-body">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1610041321327-b794c052db27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGdhbWVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="" srcset="">
+                  <h4 class="pt-2">Project 3</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, voluptatum!</p>
+                  <button class="btn fw-bold btn-primary">Learn more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  </div>
+ </section>
+
+ <!--Contact-->
+<section id="form-container" class="container py-5">
+    <h1 class="text-center pb-3 ">Contact</h1>
+    <div class="row">
+    <div class=" col-sm-12 col-md-6 mx-auto d-flex flex-column align-items-center">
+
+      <label for="name" class="form-label p-2 ">Name</label>
+      <input type="text" id="name" class="form-control fw-light" placeholder="James John"/>
+
+      <label for="email" class="form-label p-2" >Email</label> 
+      <input type="Email" id="email" class="form-control fw-light" placeholder="Email"/>
+
+      <label for="message" class="form-label p-2" >Mesaage</label>
+      <textarea id="message" class="form-control fw-light pb-3">Add a message for James</textarea>
+
+      <button class="btn btn-primary w-50 mt-3">Submit</button>
+    </div>
+    </div>
+</section>
+
+
+      <!--Footer-->
+      <footer class="bg-danger">
+        <h2 class="text-white display-30 text-center fw-light pt-2 ">| Quick Links</h2>
+        <p class="text-white display-60 fw-lighter text-center pb-3">© 2023 Copyrights Legally Reserved with the Authorized user.</p>
+        </ul>
+      </footer>
+  </body>
+</html>
